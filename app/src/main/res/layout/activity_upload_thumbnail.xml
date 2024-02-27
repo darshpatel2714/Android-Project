@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadThumbnailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/bck2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Choose Movies Type"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioNotype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="No Type">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiolatestMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="Latest Movies">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radiobestpopularMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Popular Movies"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radioSlideMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slide Movies"
+                android:textColor="@color/white"
+                android:textSize="20dp">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showimagechooser"
+                android:text="Upload Thumbnail">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Thumbnail Selected"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:id="@+id/textNothumbnailselected">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttonupload"
+            android:textStyle="bold"
+            android:onClick="uploadfiletofirebase">
+
+        </Button>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+    </LinearLayout>
+</RelativeLayout>
