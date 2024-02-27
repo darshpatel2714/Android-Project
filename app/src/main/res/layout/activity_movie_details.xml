@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MovieDetailsActivity">
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="245dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:id="@+id/detail_movies_cover"-->
+<!--            tools:srcCompat="@tools:sample/backgrounds/scenic">-->
+
+<!--        </ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:src="@drawable/gradient_bg"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/detail_movies_cover"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/detail_movies_cover"-->
+<!--            app:layout_constraintBaseline_toBottomOf="@id/detail_movies_cover"-->
+<!--            android:id="@+id/imageview"-->
+<!--            tools:srcCompat="@tools:sample/backgrounds/scenic">-->
+
+<!--        </ImageView>-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:clickable="true"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/imageview"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/imageview"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/imageview"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/imageview"-->
+<!--            android:src="@drawable/ic_play_erro"-->
+<!--            android:id="@+id/play_fab">-->
+<!--        </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="125dp"-->
+<!--            android:layout_height="175dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/detail_movies_cover"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/detail_movies_cover"-->
+<!--            android:id="@+id/details_movies_img"-->
+<!--            android:transitionName="sharedName">-->
+
+<!--        </ImageView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/detail_movie_title"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:text="textview"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/details_movies_img"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/detail_movies_cover"-->
+<!--            android:textColor="#ffffff">-->
+
+<!--        </TextView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/detail_movie_desc"-->
+<!--            android:lineSpacingExtra="8dp"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:text="Descriptions textview"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottom0f="@+id/details_movies_img"-->
+<!--            android:textColor="@color/text_light_blue" >-->
+
+<!--        </TextView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:background="@color/text_bg_blue"-->
+<!--            android:padding="16dp"-->
+<!--            android:text="Similar Movies"-->
+<!--            android:textColor="#ffffff"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/detail_movie_desc"-->
+<!--            app:layout_constraintVertical_bias="0.0"-->
+<!--            android:id="@+id/text_similar_movies">-->
+
+<!--        </TextView>-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottom0f="@+id/text_similar_movies"-->
+<!--            android:id="@+id/recyler_similar_movies">-->
+
+<!--        </androidx.recyclerview.widget.RecyclerView>-->
+
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+</androidx.core.widget.NestedScrollView>
